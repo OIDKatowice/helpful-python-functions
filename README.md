@@ -7,9 +7,10 @@ File Structure
 
 ## Interactive Folium Choropleth
 `interactive_choropleth()`
-    * Function to create more interactive choropleths in Folium (Actually `folium.GeoJson`)
-    * `folium.Choropleth` has limited customizations and tooltips are not friendly.
-    * We can step around these problems by implementing a custom function to interact with `folium.GeoJson` and create the same effect as `folium.Choropleth` with more interactivity and better tooltips.
+* Function to create more interactive choropleths in Folium (Actually `folium.GeoJson`)
+* `folium.Choropleth` has limited customizations and tooltips are not friendly.
+* We can step around these problems by implementing a custom function to interact with `folium.GeoJson` and create the same effect as `folium.Choropleth` with more interactivity and better tooltips.
+
 ### Example Usage
 
 ### TODO
