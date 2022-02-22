@@ -1,6 +1,6 @@
 # Example Usage with CA County level teacher salary data
 import geopandas as gpd
-df = gpd.read_file("functions/folium/choropleth/county_df.json")
+df = gpd.read_file("~/functions/folium/choropleth/county_df.json")
 example = interactive_choropleth(
     data = df
     , color_variable = 'salary'
