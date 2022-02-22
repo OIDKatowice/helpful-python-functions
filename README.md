@@ -15,3 +15,4 @@ File Structure
 
 ### TODO
 * Implement `branca.colormap`'s `to_step()` function for more flexibility on colors and bins for choropleth.
+* Submit a PR to the `python-visualization/folium` repository with an example shown
