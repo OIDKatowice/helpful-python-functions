@@ -12,3 +12,5 @@ File Structure
     * We can step around these problems by implementing a custom function to interact with `folium.GeoJson` and create the same effect as `folium.Choropleth` with more interactivity and better tooltips.
 ### Example Usage
 
+### TODO
+* Implement `branca.colormap`'s `to_step()` function for more flexibility on colors and bins for choropleth.
