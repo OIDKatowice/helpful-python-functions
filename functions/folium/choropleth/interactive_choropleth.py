@@ -156,12 +156,12 @@ def interactive_choropleth(data, color_variable, tooltip_fields, tooltip_aliases
     macro = MacroElement()
     macro._template = Template(template)
     m.get_root().add_child(macro)
-    folium.LayerControl().add_to(m)
     
     if add_measuring == True:
         m.add_child(MeasureControl(position = 'bottomleft', primary_length_unit='miles', secondary_length_unit='meters', primary_area_unit='sqmiles', secondary_area_unit=np.nan))
     if add_geocoder == True:
         folium.plugins.Geocoder().add_to(m)
+    folium.LayerControl().add_to(m)
     if download_html_path is not None:
         m.save(f'{download_html_path}/interactive_choropleth.html')
     return m
