@@ -1,9 +1,9 @@
-# Example Usage with CA County level teacher salary data
+##### TESTING #####
 import geopandas as gpd
-df = gpd.read_file("~/functions/folium/choropleth/county_df.json")
 example = interactive_choropleth(
     data = df
     , color_variable = 'salary'
+    , pallette=Oranges_9
     , tooltip_fields = ['COUNTY_NAM', 'COUNTY_ABB', 'COUNTY_NUM', 'COUNTY_COD', 'salary_rank', 'salary']
     , tooltip_aliases = ['County Name', 'County Abbreviation', 'County Number', 'County Code', 'Salary Rank', 'Salary ($)']
     , legend_title= "CA School Salaries"
