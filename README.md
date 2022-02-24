@@ -11,8 +11,7 @@ File Structure
 * `folium.Choropleth` has limited customizations and tooltips are not friendly.
 * We can step around these problems by implementing a custom function to interact with `folium.GeoJson` and create the same effect as `folium.Choropleth` with more interactivity and better tooltips.
 
-### Example Usage
+### [Example Usage](https://nbviewer.org/github/nathanjones4323/helpful-python-functions/blob/main/functions/folium/choropleth/interactive_choropleth_notebook.ipynb)
 
 ### TODO
-* Implement `branca.colormap`'s `to_step()` function for more flexibility on colors and bins for choropleth.
-* Submit a PR to the `python-visualization/folium` repository with an example shown
+* Submit a PR to the `python-visualization/folium` repository
