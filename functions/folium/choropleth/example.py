@@ -2,7 +2,7 @@
 # Example Usage with state population data
 import geopandas as gpd
 from . import interactive_choropleth
-df = gpd.read_file("/Users/nathanjones/Python-Scripts/helpful-python-functions/functions/folium/choropleth/county_df.json")
+df = gpd.read_file("~/helpful-python-functions/functions/folium/choropleth/county_df.json")
 example = interactive_choropleth(
     data = df
     , color_variable = 'salary'
