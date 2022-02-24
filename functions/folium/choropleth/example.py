@@ -1,5 +1,8 @@
 ##### TESTING #####
+# Example Usage with state population data
 import geopandas as gpd
+from . import interactive_choropleth
+df = gpd.read_file("/Users/nathanjones/Python-Scripts/helpful-python-functions/functions/folium/choropleth/county_df.json")
 example = interactive_choropleth(
     data = df
     , color_variable = 'salary'
@@ -16,4 +19,4 @@ example = interactive_choropleth(
     , add_measuring= True
     , download_html_path = None
 )
-example 
+example
